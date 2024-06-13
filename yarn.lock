@@ -983,6 +983,11 @@
   resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-1.6.0.tgz#ec8c199715859c7bbd2717c26526edc93e18d1c7"
   integrity sha512-NIEAi5U5R7BLkbW1pG/ZKu3eb1lzc3/+jD0lFsuxMT7zjaf9bbNwdNyMr7zh/Zl8EXQtQ+MYBAt5G+JLu+5DlA==
 
+"@shikijs/core@1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-1.6.1.tgz#4b4becfd26754334652a0b474f02705868dcb28c"
+  integrity sha512-CqYyepN4SnBopaoXYwng4NO8riB5ask/LTCkhOFq+GNGtr2X+aKeD767eYdqYukeixEUvv4bXdyTYVaogj7KBw==
+
 "@shikijs/markdown-it@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@shikijs/markdown-it/-/markdown-it-1.6.0.tgz#920e2c8caf1f22be2dd8d1f9ce69572a82d0fc08"
@@ -1416,6 +1421,26 @@
   version "0.47.5"
   resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.47.5.tgz#53715dfabf25aa54893dfaa8de5d67027bdd6370"
   integrity sha512-X67V4cCgM0Sz50bP8GbVzmiL8DHC2IXvdKcsN7DlxHyf+/T4d9GveeGukwha5Fx3MuYeGZWKag7TFL2ZY4w54A==
+
+"@slidev/types@^0.49.4":
+  version "0.49.5"
+  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.49.5.tgz#fd5fb4e188e5d3662d4d536c10262afa9095d646"
+  integrity sha512-5MUn7UNbl5M4gk/ItkOgVq4mxFKZREkb3aIJE4MJ4SN6u7udig//TP0+PCmsqvXoT88xG2vkX3s1ar8J4K+TPQ==
+  dependencies:
+    "@antfu/utils" "^0.7.8"
+    "@vitejs/plugin-vue" "^5.0.4"
+    "@vitejs/plugin-vue-jsx" "^3.1.0"
+    katex "^0.16.10"
+    mermaid "^10.9.1"
+    monaco-editor "^0.49.0"
+    shiki "^1.6.1"
+    unocss "^0.60.3"
+    unplugin-icons "^0.19.0"
+    unplugin-vue-markdown "^0.26.2"
+    vite-plugin-remote-assets "^0.4.1"
+    vite-plugin-vue-server-ref "^0.4.2"
+    vue "^3.4.27"
+    vue-router "^4.3.2"
 
 "@szmarczak/http-timer@^5.0.1":
   version "5.0.1"
@@ -7022,7 +7047,7 @@ prettier@^3.2.5:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.2.5.tgz#e52bc3090586e824964a8813b09aba6233b28368"
   integrity sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==
 
-prism-theme-vars@^0.2.2, prism-theme-vars@^0.2.4:
+prism-theme-vars@^0.2.2, prism-theme-vars@^0.2.4, prism-theme-vars@^0.2.5:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/prism-theme-vars/-/prism-theme-vars-0.2.5.tgz#4691660f52c2ec790187a81df7dcd22fceaef128"
   integrity sha512-/D8gBTScYzi9afwE6v3TC1U/1YFZ6k+ly17mtVRdLpGy7E79YjJJWkXFgUDHJ2gDksV/ZnXF7ydJ4TvoDm2z/Q==
@@ -7566,6 +7591,13 @@ shiki@^0.9.3:
     vscode-oniguruma "^1.6.1"
     vscode-textmate "5.2.0"
 
+shiki@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/shiki/-/shiki-1.6.1.tgz#902c8dc2a54f6b94e0d0826e1c68e9b8f34f2be7"
+  integrity sha512-1Pu/A1rtsG6HZvQm4W0NExQ45e02og+rPog7PDaFDiMumZgOYnZIu4JtGQeAIfMwdbKSjJQoCUr79vDLKUUxWA==
+  dependencies:
+    "@shikijs/core" "1.6.1"
+
 side-channel@^1.0.4:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/side-channel/-/side-channel-1.0.6.tgz#abd25fb7cd24baf45466406b1096b7831c9215f2"
@@ -7618,6 +7650,15 @@ slash@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-5.1.0.tgz#be3adddcdf09ac38eebe8dcdc7b1a57a75b095ce"
   integrity sha512-ZA6oR3T/pEyuqwMgAKT0/hAv8oAXckzbkmR0UkUosQ+Mc4RxGoJkRmwHgHufaenlyAgE1Mxgpdcrf75y6XcnDg==
+
+slidev-theme-klef@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/slidev-theme-klef/-/slidev-theme-klef-0.0.1.tgz#c96d59bca1b74e64b4fd952d098851aba4e3104c"
+  integrity sha512-QPqHUeSsVCWApvutVa+N8cpCnyg1IqWrFQdRGaG+oucczAxcQ06WeDNU9l1GHooPooR+zUMOIW55Wsjc0NbZyw==
+  dependencies:
+    "@slidev/types" "^0.49.4"
+    codemirror-theme-vars "^0.1.2"
+    prism-theme-vars "^0.2.5"
 
 slidev-theme-light-icons@^1.0.2:
   version "1.0.2"

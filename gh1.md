@@ -1,23 +1,25 @@
 ---
 title: Git/GitHub研修(1)
-directory: gh_1
-theme: default
-layout: quote
+file: klef-project/lecture/gh1.md
+theme: klef
+layout: cover
 ---
 
 # Git/GitHub研修
 
 Klef Project ・ Klef Lab  
-Powered by <span class="text-red-400">[Slidev](https://ja.sli.dev) </span>
+Powered by [Slidev](https://ja.sli.dev)
 
+---
+transition: fade-out
 ---
 
 # Gitとは
 
 Linus Torvaldsが作った分散型バージョン管理システム
 
-ファイルを <Highlight>いつ、だれが、どのように</Highlight> 変更したかを記録するシステム⇒ バージョン管理システム  
-特にGitは <Highlight>デファクトスタンダード</Highlight> として広く使われている。
+ファイルを <Hlt>いつ、だれが、どのように</Hlt> 変更したかを記録するシステム⇒ バージョン管理システム  
+特にGitは <Hlt>デファクトスタンダード</Hlt> として広く使われている。
 
 ## Gitの特徴
 
@@ -36,7 +38,7 @@ Linus Torvaldsが作った分散型バージョン管理システム
 # GitHubとは
 
  
-<span class="text-red-500"> **Git** </span> のホスティング環境  
+<Hlt>Git</Hlt> のホスティング環境  
 
 **Git**のログやファイルを保管・共有するためのシステム。  
 GitHubがトップシェアではあるが、GitLabにも一定の人気がある。
@@ -100,8 +102,6 @@ Windowsのターミナル環境
 
 # Git/GitHubのセットアップ
 
-2023年度知能情報コース2年「プログラミング1」第14\~16回講義資料による
-
 Git/GitHubを使うには、以下の手順を踏む必要がある。
 
 1. Gitのインストール
@@ -158,10 +158,10 @@ git config --global user.name < Your User name >
 
 git init
 
-現在のディレクトリ(<Highlight>カレントディレクトリ</Highlight>)でGitによるバージョン管理を有効にする  
-＝<Highlight>リポジトリを初期化する</Highlight>　or 既存のプロジェクトをGitリポジトリに変換する
+現在のディレクトリ(<Hlt>カレントディレクトリ</Hlt>)でGitによるバージョン管理を有効にする  
+＝<Hlt>リポジトリを初期化する</Hlt>　or 既存のプロジェクトをGitリポジトリに変換する
 
-その時に使うコマンドが<Highlight>`git init`</Highlight>
+その時に使うコマンドが<Hlt>`git init`</Hlt>
 
 ## 使用例
 ```bash
@@ -185,9 +185,9 @@ GitHubのURL: <span class="text-sky-500">[https://github.com](https://github.com
 <v-clicks>
 
 1. 右上の`Sign Up`をクリック
-2. `Enter your Email`と聞かれるので<Highlight>Gitに設定した</Highlight>メールアドレスを入力し、`Continue`。
+2. `Enter your Email`と聞かれるので<Hlt>Gitに設定した</Hlt>メールアドレスを入力し、`Continue`。
 3. `Create Password`と聞かれるので、パスワードを作成する。
-4. `Enter a Username`と聞かれるので、<Highlight>Gitに設定した</Highlight>ハンドルネームを入力する。
+4. `Enter a Username`と聞かれるので、<Hlt>Gitに設定した</Hlt>ハンドルネームを入力する。
 5. `Email preferences`で`Receive occasional product updates and announcements.`と聞かれるので、どちらか選択して`Continue`。
 6. `Verify your Account`と聞かれるので、`認証する`を押して人間であることを認証する。
 7. `You're almost done! we sent a launch code to ~`と表示されるので、メールを確認し、そこに書かれているコードを入力する。
@@ -251,4 +251,4 @@ layout: end
 # Git/GitHub研修
 
 Klef Project ・ Klef Lab  
-Powered by <span class="text-red-400">[Slidev](https://ja.sli.dev) </span>
+Powered by [Slidev](https://ja.sli.dev)

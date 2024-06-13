@@ -1,8 +1,8 @@
 ---
 title: Git/GitHub研修(2)
-directory: gh_2
-theme: default
-layout: quote
+file: klef-project/lecture/gh2.md
+theme: klef
+layout: cover
 ---
 
 # Git/GitHub研修(第2回)
