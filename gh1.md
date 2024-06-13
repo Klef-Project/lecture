@@ -151,6 +151,7 @@ git config --global user.name < Your User name >
 ```
 
 < Your Email >< Your User Name >にはそれぞれ自分のメールアドレスと名前を入力
+ここで入力した情報はあとでGitHubアカウントの作成のときに用いるため、控えておくこと。
 
 ---
 
@@ -171,7 +172,7 @@ git init
 ```
 
 `git init`に引数は与えなくてよい  
-ここで入力した情報はあとでGitHubアカウントの作成のときに用いるため、控えておくこと。
+
 
 ---
 
